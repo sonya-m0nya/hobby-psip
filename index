@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Страница о моём хобби — тренажерка">
+    <meta name="keywords" content="хобби, фотография, увлечения">
+    <meta name="author" content="Соня">
+    <title>Моё хобби</title>
+    <meta property="og:title" content="Моё хобби — спорт">
+    <meta property="og:description" content="Страница о моём увлечении спортом">
+    <meta property="og:image" content="mir-fitnesa.jpg"> 
+    <meta property="og:url" content="https://sonya-m0nya.github.io/hobby-psip/">
+    <meta property="og:type" content="website">
+</head>
+<body>
+    <header id="top" class="page-header" style="background-color: #f0f0f0;">
+        <h1 lang="ru">Мое хобби - тягать железяки</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about" title="Перейти к разделлу о хобби" tabindex="1">О хобби</a></li>
+            <li><a href="#gallery" title="Посмотреть фото" tabindex="2">Фотки зала</a></li>
+        </ul>
+    </nav> 
+    <main>
+        <section id="about" data-page="about" class="content-section">
+            <h2>Про железяки</h2>
+            <p>Я стабильно хожу в зал уже <strong>второй год</strong> после небольшого перерыва. До того, как чисто перейти 
+            к тяганию железяк, я занималась <em>греблей на байдарках</em><strong>три года</strong>, где мы тоже ходили в
+            тренажерку, но из-за колледжа пришлось бросить греблю. Сначала я занималась дома <small>(у нас есть гимнастическая 
+            лестница с турником, есть штанга, гантели и этого сначала хватало)</small>, потом случился небольшой перерыв в 
+            тренировках и вернулась к ним я уже в тренажерку.</p>
+            <p>Мои одни из любих упражнений это жим лежа, жим гантелей в наклоне, тяга верхнего блока, тяга гантели в упоре на 
+            лавочку и подъем на бицепс :)).</p>
+        </section>
+
+        <section id="gallery" class="content-section">
+            <h2>Сейчас я тренюсь тут</h2>
+            <img src="mir-fitnesa.jpg" alt="Мир финтеса">
+        </section>
+    </main>
+    <footer>
+        <p hidden>2026, Соня (но вы пока этот текст не видите)</p>
+    </footer>
+</body>
+</html>
